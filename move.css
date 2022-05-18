@@ -6,7 +6,7 @@
     overflow: hidden;
     opacity: 0;
 }
-@keyframes bgextendAnimeBase; {
+@keyframes bgextendAnimeBase {
     from {
         opacity: 0;
   }to {
@@ -52,11 +52,11 @@
   }
 }
 .rental-item {
-    animetion-name: ugoku;
-    animetion-duration: 1s;
+    animation-name: ugoku;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     position: relative;
-    opacty: 0;
+    opacity: 0;
 }
 @keyframes ugoku {
       frome {
