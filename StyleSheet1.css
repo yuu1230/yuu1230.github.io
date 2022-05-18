@@ -75,6 +75,11 @@ main {
     margin: 0px;
     font-weight: normal;
 }
+.rental-item {
+    float: left;
+    margin-right: 40px;
+    margin-left: 40px;
+}
 
 
 footer {
