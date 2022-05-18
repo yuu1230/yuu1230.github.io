@@ -1,0 +1,67 @@
+.bgecxtend {
+    animation-name: bgextendAnimeBase;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+}
+@keyframes bgextendAnimeBase; {
+    from {
+        opacity: 0;
+  }to {
+        opacity: 1;
+  }
+}
+.catchCopy h1::before {
+    animation-name: bgLRextendAnime;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+      content: "";
+      position: absolute;
+      width: 60.6%;
+      heigth: 100%;
+      background-color: rgba(192, 192, 192, .3);
+}
+@keyframes bgLRextendAnime {
+    0% {
+        transform-origin: left;
+        transform: scaleX(0);
+  }100% {
+        transform-origin: left;
+        transform: scaleX(1);
+  }
+}
+.catchCopy h2::before {
+    animation-name: bgLRextendAnime2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(192, 192, 192, .3);
+}
+@keyframes bgLRextendAnime2 {
+    0% {
+        transform-origin: right;
+        transform: scaleX(0);
+  }100% {
+        transform-origin: right;
+        transform: scaleX(1);
+  }
+}
+.rental-item {
+    animetion-name: ugoku;
+    animetion-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    opacty: 0;
+}
+@keyframes ugoku {
+      frome {
+        opacity: 0;
+  }to {
+        opacity: 1;
+  }
+}
