@@ -9,7 +9,8 @@
 @keyframes bgextendAnimeBase {
     from {
         opacity: 0;
-  }to {
+  }
+    to {
         opacity: 1;
   }
 }
@@ -17,17 +18,18 @@
     animation-name: bgLRextendAnime;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-      content: "";
-      position: absolute;
-      width: 60.6%;
-      height: 100%;
-      background-color: rgba(192, 192, 192, .3);
+    content: "";
+    position: absolute;
+    width: 60.6%;
+    height: 100%;
+    background-color: rgba(192, 192, 192, .3);
 }
 @keyframes bgLRextendAnime {
     0% {
         transform-origin: left;
         transform: scaleX(0);
-  }100% {
+  }
+    100% {
         transform-origin: left;
         transform: scaleX(1);
   }
@@ -46,7 +48,8 @@
     0% {
         transform-origin: right;
         transform: scaleX(0);
-  }100% {
+  }
+    100% {
         transform-origin: right;
         transform: scaleX(1);
   }
