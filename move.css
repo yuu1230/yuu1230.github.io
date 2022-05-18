@@ -53,7 +53,7 @@
 }
 .rental-item {
     animation-name: ugoku;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
     position: relative;
     opacity: 0;
