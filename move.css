@@ -62,9 +62,10 @@
     opacity: 0;
 }
 @keyframes ugoku {
-      from {
+    from {
         opacity: 0;
-  }to {
+  }
+    to {
         opacity: 1;
   }
 }
